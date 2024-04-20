@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- body -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">ABOUT</a>
+            <a href="#services">SERVICES</a>
+            <a href="#portfolio">PORTFOLIO</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Aryan</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <div class="social-media">
+                <a href="https://github.com/Aryan-Prabhakar"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxs-envelope'></i></a>
+                <a href="https://www.instagram.com/prabhakaraaryan/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/aryan-prabhakar-a74163295/"><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+            <a href="C:\Users\shrey\Downloads\B.-Software-Engineer.docx" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2022/10/computer_engineer-compare-page.jpg" alt="">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="https://wallpaperaccess.com/full/1385382.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About<span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Frontend developer with experience building single-page web applications and a knack for creating attractive user interfaces. Skilled experience in JavaScript, HTML, CSS.</p>
+            <a href="#" class="btn">Read More</a>   
+        </div>
+    </section>
+    <section class="services" id="services">
+        <h2 class="heading">Our<span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Motivated designer and developer with experience creating custom websites through CSS. Strong collaboration skills and proven history of application development.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-crop'></i>
+                <h3>Full Stack Developer</h3>
+                <p>Learning and practicing all programming languages to become the best Full Stack Developer.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-instagram-alt'></i>
+                <h3>Ethical Hacking</h3>
+                <p>Also having experience in Ethical Hacking, Trojans, Viruses.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest<span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="myproject/image/jan-vlacuha-Rns_A8bJ_dQ-unsplash.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Personal Portfolio</h4>
+                    <p>In this project, I try making my own portfolio website for myself. Showcase my projects, my social media handles, my experience on the website.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="myproject/image/austin-poon-JO_S6ewBqAk-unsplash.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Dynamics Website Deployment in AWS</h4>
+                    <p>In this project, I try deploying a dynamics website in AWS so that we can add/delete the data by connecting to databases.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="myproject/image/nubelson-fernandes--Xqckh_XVU4-unsplash.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Iris Flower Detection</h4>
+                    <p>In this project, I try to detect the iris flower type by using machine learning prediction model. And deployed in Streamlit Python.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="myproject/image/kevin-canlas-QYHehJ9Iovs-unsplash.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Cab Booking</h4>
+                    <p>In this project, we can book a cab by using Java.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact<span>ME!</span></h2>
+        <form action="submit.php" method="POST">
+            <div class="input-box">
+                <input type="text" name="Name" placeholder="Full Name">
+                <input type="email" name="Email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" name="Mobile_Number" placeholder="Mobile Number">
+                <input type="text" name="Subject" placeholder="Subject">
+            </div>
+            <textarea name="Message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+        <span id="msg"></span>
+    </section>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Aryan | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+</body>
+</html>
